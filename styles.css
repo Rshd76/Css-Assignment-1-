@@ -1,0 +1,193 @@
+
+body{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    margin: 30px;
+    background-color: lightgray;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+.main{
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.card{
+    text-align: center;
+    width: 300px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.card1 form {
+   width: 100%;
+   margin-top: 30px;
+}
+
+.input, .btn{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border:2px solid #3FBDF1 ;
+    margin-bottom: 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.btn{
+    background-color:#3FBDF1; 
+    outline:none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border:3px solid #3FBDF1 ;
+   
+}
+
+.card1_img{
+    width: 300px;
+}
+
+p span{
+    color: black;
+}
+
+.option{
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 8px 8px;
+    
+}
+.emoji{
+    font-size:44px;
+}
+.disc{
+    margin-bottom: 36px;
+}
+.option div{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.option div p{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: black;
+}
+
+.card2 img{
+    display: block;
+}
+
+.op2{
+    background-color: white;
+}
+.card3_disc p{
+    text-align: left;
+    font-size:11px ;
+    color: #a3a3a3;
+}
+.card3_disc{
+    margin-top: 26px;
+    display:flex;
+    justify-content: center;
+}
+
+.card4_input{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card4_input input{
+    font-size: 14px;
+    padding: 4px 6px;
+    border: none;
+    outline: none;
+}
+
+.input1{
+    width: 50%;
+}
+
+.input2{
+    width: 20%;
+}
+.input3{
+    width: 20%;
+}
+.card4_disc{
+    margin: 15px;
+}
+.card4_disc div{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+}
+.card4_disc div img{
+    width: 15px; height: 15px;
+}
+.card4_disc div p{
+    margin-bottom:0;
+    font-size: 12px;
+
+}
+
+.card5_form{
+    text-align: left;
+    font-size: 12px;
+    
+}
+
+.card5_form input{
+    margin: 5px 0px;
+    border-color: lightgray;
+}
+
+.card5_form input:focus{
+    border-color: #3FBDF1; 
+}
+
+.label p{
+    margin:0;
+    font-size: 12px;  
+}
+.card5_form select {
+    margin: 8px 0px;
+    border-color: lightgray; 
+    font-size: 13px;
+}
+
+
+.card5_form select:focus {
+    border-color: #3FBDF1; 
+}
+
+.card5_form  button{
+    margin-top: 10px;
+}
